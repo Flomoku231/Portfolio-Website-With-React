@@ -1,0 +1,72 @@
+@import './_Variables.scss';
+
+.Experience__Container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    padding-top: 60px;
+    box-shadow: $navbar-shadow;
+    gap: 40px;
+}
+.Years{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    color: $primary-clr;
+    align-items: center;
+    font-family: $primary-font;
+
+    .Years__Experienced{
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+        align-items: center;
+    }
+}
+.Accounting__Experience{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+}
+#CountUp{
+    font-size: 60px;
+}
+#Plus{
+    font-size: 35px;
+}
+#Expri{
+    font-size: 25px;
+}
+/*Making this page responsive*/
+@media all and (max-width: 850px){
+    #CountUp {
+        font-size: 40px;
+    }
+    #Plus {
+        font-size: 28px;
+    }
+    
+#Expri {
+    font-size: 20px;
+}
+.Experience__Container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    box-shadow: 0px 0px 18px rgb(0 0 0 / 9%);
+    gap: 40px;
+}
+}

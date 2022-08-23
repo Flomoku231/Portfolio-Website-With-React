@@ -1,0 +1,20 @@
+@import '../ComponentScss/_Intro.scss';
+@import '../ComponentScss/_About.scss';
+@import '../ComponentScss/_Services.scss';
+@import '../ComponentScss/_Experience.scss';
+@import '../ComponentScss/_Portfolio.scss';
+@import '../ComponentScss/_Testimonial.scss';
+@import '../ComponentScss/_Footer.scss';
+@import '../ComponentScss/_ContactMe.scss';
+
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body, html, #root{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}

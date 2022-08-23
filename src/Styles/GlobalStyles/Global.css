@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Edu+TAS+Beginner:wght@500&family=Inter&family=Poppins:wght@700&family=Rubik+Moonrocks&display=swap");
+/**********************************
+Color varibles
+*/
+/**********************************
+Fonts varibles
+*/
+/** Shadow varibles*/
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Edu+TAS+Beginner:wght@500&family=Inter&family=Poppins:wght@700&family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Edu+TAS+Beginner:wght@500&family=Inter&family=Poppins:wght@700&family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Edu+TAS+Beginner:wght@500&family=Inter&family=Poppins:wght@700&family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Edu+TAS+Beginner:wght@500&family=Inter&family=Poppins:wght@700&family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Edu+TAS+Beginner:wght@500&family=Inter&family=Poppins:wght@700&family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Edu+TAS+Beginner:wght@500&family=Inter&family=Poppins:wght@700&family=Rubik+Moonrocks&display=swap");
+.Intro__Container {
+  width: 100%;
+  background-size: cover;
+  height: 524px;
+  background-color: #161616;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px 0px 100px;
+}
+
+.HomePage {
+  width: 100%;
+  height: 100%;
+  background-color: #161616;
+}
+
+.Home__navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  padding: 39px 39px 10px 100px;
+}
+.Home__navbar .Home__navbar-logo {
+  font-family: "Inter", sans-serif;
+  color: #F47A36;
+  font-style: normal;
+  font-size: 22px;
+}
+.Home__navbar .Home__navbar-list {
+  width: 600px;
+  height: 45px;
+  background-color: #323232;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.09);
+  border-radius: 8px;
+}
+.Home__navbar .Home__navbar-list .navbar__list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+.Home__navbar .Home__navbar-list .navbar__list > li {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.09);
+  padding-top: 10px;
+  height: 100%;
+  width: 20%;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.Home__navbar .Home__navbar-list .navbar__list > li:hover {
+  background-color: #F47A36;
+}
+
+.Intro__Container-content {
+  width: 60%;
+  transform: translateY(10%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Intro__Container-content #Greet {
+  width: 40%;
+  color: #F47A36;
+  font-size: 40px;
+}
+.Intro__Container-content #Introduction {
+  font-size: 80px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  text-align: center;
+  margin-left: -10px;
+  width: 80%;
+}
+.Intro__Container-content #Paragraph {
+  font-size: 20px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 25px;
+  letter-spacing: 5px;
+}
+
+.Intro__Container-button {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.Intro__Container-button .Container__button > button {
+  width: 145px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+  outline: 0px;
+  background-color: #F47A36;
+  color: white;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.09);
+  border: 1px solid #F47A36;
+  border-radius: 8px;
+  outline: 0px;
+}
+.Intro__Container-button .Container__button > button:hover {
+  background-color: #161616;
+  border: 1px solid #F47A36;
+}
+.Intro__Container-button .DownloadCV > button {
+  background-color: #161616;
+  border: 1px solid #F47A36;
+  cursor: pointer;
+}
+.Intro__Container-button .DownloadCV > button:hover {
+  background-color: #F47A36;
+}
+
+#FocusImage {
+  transform: translateY(9%);
+}
+
+/**********************************
+Color varibles
+*/
+/**********************************
+Fonts varibles
+*/
+/** Shadow varibles*/
+.Home__AboutPage {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 100px 0px 100px;
+}
+.Home__AboutPage .Home__AboutPage-head {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 50%;
+  font-family: "Inter", sans-serif;
+}
+
+.Home__AboutPage-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+}
+.Home__AboutPage-content .About__Content-title {
+  width: 40%;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  gap: 15px;
+}
+.Home__AboutPage-content .right__paragraphy {
+  width: 50%;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+.Home__AboutPage-content #button {
+  width: 145px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  outline: 0px;
+  background-color: #161616;
+  color: white;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.09);
+  border-radius: 8px;
+  outline: 0px;
+  border: 1px solid #F47A36;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.Home__AboutPage-content #button:hover {
+  background-color: #F47A36;
+}
+
+/**********************************
+Color varibles
+*/
+/**********************************
+Fonts varibles
+*/
+/** Shadow varibles*/
+.Services {
+  width: 100%;
+  height: 1000px;
+  background-color: #F4FEFF;
+  padding-top: 30px;
+}
+.Services .Services__Card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Services .Services__Card-row1, .Services .Services__Card-row2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Services > h1 {
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: "Inter", sans-serif;
+  color: #F47A36;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.ServicesCard {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.09);
+  background-color: white;
+}
+.ServicesCard .ServicesCard__Image > img {
+  width: 90%;
+  height: 220px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.09);
+}
+.ServicesCard .ServicesCard__text {
+  width: 50%;
+  height: 220px;
+  text-align: center;
+  padding: 60px 10px 0px 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ServicesCard-row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  justify-content: center;
+}
+
+.ServicesCard__paragraph > {
+  width: 100%;
+  font-family: "Calibri";
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/**********************************
+Color varibles
+*/
+/**********************************
+Fonts varibles
+*/
+/** Shadow varibles*/
+.Experience__Container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.09);
+  gap: 40px;
+}
+
+.Years {
+  width: 40%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Poppins";
+}
+.Years .Years__Experienced {
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  align-items: center;
+}
+
+.Accounting__Experience {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+#CountUp {
+  font-size: 60px;
+}
+
+#Plus {
+  font-size: 35px;
+}
+
+#Expri {
+  font-size: 25px;
+}
+
+/**********************************
+Color varibles
+*/
+/**********************************
+Fonts varibles
+*/
+/** Shadow varibles*/
+.HomePage__Portfolio {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.Portfolio__Card {
+  width: 250px;
+  cursor: pointer;
+  overflow: hidden;
+  height: 300px;
+  background-color: #F47A36;
+  border-radius: 8px;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.09);
+  justify-content: center !important;
+  text-align: center;
+  align-items: center !important;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+.HomePage__Portfolio-Card {
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+  height: 80%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+#Portfolio_image {
+  width: 100%;
+  height: 50%;
+}
+
+/**********************************
+Color varibles
+*/
+/**********************************
+Fonts varibles
+*/
+/** Shadow varibles*/
+.HomePage__Testimonial {
+  width: 100%;
+  height: 600px;
+  background-color: #F4FEFF;
+  border-radius: 8px;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.09);
+  margin: auto;
+  margin-top: 25px;
+  align-items: center;
+  gap: 20px;
+}
+
+.HomePageTestimonial_card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: scroll;
+  padding: 20px;
+  width: 64%;
+  transform: translateY(5%);
+  margin: auto;
+}
+
+.TestimonialCard {
+  min-width: 400px;
+  cursor: pointer;
+  height: 450px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.2);
+}
+
+.TestimonialCard__PersonInfo {
+  width: 100%;
+  height: 70px;
+}
+
+.TestimonialCard-PersonInfo-button {
+  cursor: pointer;
+  width: 100%;
+  height: 70px;
+  gap: 20px;
+  justify-content: left;
+  text-align: center;
+  display: flex;
+  outline: none;
+  border: none;
+  background-color: white;
+  align-items: center;
+  flex-direction: row;
+}
+
+.button-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.09);
+}
+
+.TestimonialCard__content {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+#PersonImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.Span > h3 {
+  justify-content: center;
+  text-align: center;
+}
+
+.Span > h4 {
+  margin-left: -50px;
+}
+
+.button-text {
+  justify-content: left;
+}
+
+.TestimonialCard__text > p {
+  justify-content: left !important;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+/**********************************
+Color varibles
+*/
+/**********************************
+Fonts varibles
+*/
+/** Shadow varibles*/
+.HomePage__footer {
+  background-color: #161616;
+  width: 100%;
+  height: 100px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=Global.css.map */

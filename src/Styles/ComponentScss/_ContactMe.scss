@@ -1,0 +1,83 @@
+@import './_Variables.scss';
+
+
+.ContactMe__Page{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.ContactMe__Form{
+    height: 600px;
+    width: 450px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    display: flex;
+    padding: 15px;
+    border: 1px solid $orange-clr;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $secondary-clr;
+    border-radius: $primary-radius;
+    box-shadow: $navbar-shadow;
+    animation: ContactFormAnimation 2s forwards;
+
+    .Form__Content{
+        width: 85%;
+        height: 100%;
+        display: flex;
+        margin: auto;
+        margin-top: 15px;
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+#request-error, #email-error, #name-error{
+    color: red;
+    position: absolute;
+}
+@keyframes ContactFormAnimation {
+    from{
+        opacity: 0;
+        transform: translateX(100%)
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%)
+    }
+}
+input{
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px 0px 10px;
+    font-size: 18px;
+    font-family: $paragraph-font;
+    outline: 0px;
+}
+label{
+    font-size: 17px;
+    font-family: $primary-font;
+}
+textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    font-family: $paragraph-font;
+    outline: 0px;
+}
+.Request>#button{
+    width: 100%;
+    height: 45px;
+    background-color: $primary-clr;
+    border: 1px solid $orange-clr;
+    outline: 0px;
+    border-radius: $primary-radius;
+    font-size: 18px;
+    color: $secondary-clr;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.Request>#button:hover{
+    background-color: $orange-clr;
+}

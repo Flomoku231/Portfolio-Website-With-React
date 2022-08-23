@@ -1,0 +1,125 @@
+@import './_Variables';
+
+.HomePage__Testimonial{
+    width: 100%;
+    height: 700px;
+    background-color: $lightblue-clr;
+    border-radius: $primary-radius;
+    box-shadow: $navbar-shadow;
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 10px;
+    align-items: center;
+    gap: 20px;
+
+}
+.HomePage__Testimonial-text{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: $primary-font;
+    margin-top: 15px;
+
+    h1{
+        font-size: 25px;
+        color: $orange-clr;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+.HomePageTestimonial_card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    width: 80%;
+    transform: translateY(12%);
+    margin: auto; 
+}
+.swiper-button-next, .swiper-button-prev{
+    color: $orange-clr !important;
+    visibility: hidden;
+}
+.TestimonialCard{
+    min-width: 400px;
+    cursor: pointer;
+    gap: 20px;
+    height: 400px;
+    padding: 30px;
+    background-color: $secondary-clr;
+    border-radius: $primary-radius;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.2);
+}
+.TestimonialCard__PersonInfo{
+    width: 100%;
+    height: 70px;
+}
+.TestimonialCard-PersonInfo-button{
+    cursor: pointer;
+    width: 100%;
+    height: 70px;
+    gap: 20px;
+    justify-content: left;
+    text-align: center;
+    display: flex;
+    outline: none;
+    border: none;
+    background-color: $secondary-clr;
+    align-items: center;
+    flex-direction: row;
+}
+.button-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: $navbar-shadow;
+
+}
+.TestimonialCard__content{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+   
+}
+#PersonImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.Span>h3{
+    justify-content: center;
+    text-align: center;
+}
+.Span>h4{
+    margin-left: -50px;
+}
+.button-text{
+    justify-content: left;
+}
+.TestimonialCard__text>p{
+    font-family: $paragraph-font;
+    font-size: 20px;
+}
+/* Making this page responsive*/ 
+@media all and (max-width: 1000px){
+    .HomePageTestimonial_card {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 20px;
+        width: 93%;
+        transform: translateY(12%);
+        margin: auto;
+    }
+}
+@media all and (max-width: 850px){
+    .TestimonialCard__text > p{
+        font-family: $paragraph-font;
+        font-size: 17px;
+    }
+    .HomePageTestimonial_card {
+        width: 100%;
+    }
+}
