@@ -81,3 +81,35 @@
         color: #F47A36;
     }
 } 
+@media all and (max-width: 750px){
+    .Facebook__Icon > img, .Instagram-Icon > img {
+        width: 20px;
+        height: 20px;
+    }
+    .HomePage__footer {
+        background-color: #161616;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        /* justify-content: space-evenly; */
+        /* text-align: center; */
+        align-items: center;
+    }
+    .HomePage__footer-button {
+    color: white;
+    width: 55%;
+}
+.FooterButton > #button {
+    background-color: #161616;
+    border: 1px solid #F47A36;
+    cursor: pointer;
+    width: 135px;
+    height: 45px;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: "Poppins";
+}
+}

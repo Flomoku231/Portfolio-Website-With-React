@@ -187,3 +187,9 @@
     margin-top: 30px;
 }
 }
+@media all and (max-width: 750px){
+    .Portfolio__Card {
+        font-size: 11px;
+        font-family: "Inter", sans-serif;
+    }
+}
