@@ -3,7 +3,7 @@ import Footer from "../HomePage/Footer/Footer";
 import Validation from "./FormValidation.js";
 import { useNavigate } from "react-router-dom";
 import Button from "../HomePage/Intro/Button";
-import Navbar from "../HomePage/Intro/Navbar";
+import SecondNavbar from "../HomePage/Intro/SecondNavbar";
 
 
 const ContactMe = () => {
@@ -38,9 +38,9 @@ const ContactMe = () => {
   };
   const { handleSubmit, errors, handleChange, values } = UseForm(Validation);
   return (
-    <React.Fragment>
+  <>
       <div className="ContactMe__Page">
-        <Navbar />
+        <SecondNavbar/>
         <div className="ContactMe__Form">
           <form action="" className="Form__Content" onSubmit={handleSubmit}>
             <div className="NameInput">
@@ -86,9 +86,9 @@ const ContactMe = () => {
             <Button name="Send Message" className="Request" />
           </form>
         </div>
-        <Footer />
+         <Footer />
       </div>
-    </React.Fragment>
+   </>
   );
 };
 

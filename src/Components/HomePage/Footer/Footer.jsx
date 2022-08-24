@@ -18,7 +18,7 @@ const Footer = () => {
             name="Send A Request"
             /></Link>
           </div>
-          <div className="Footer__rightcontent-icons">
+          <div className="Footer__rightcontent-text">
             <p>Terms & Condition</p>
             <p>Privacy Policy</p>
           </div>

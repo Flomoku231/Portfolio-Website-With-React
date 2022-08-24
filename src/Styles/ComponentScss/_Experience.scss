@@ -70,3 +70,25 @@
     gap: 40px;
 }
 }
+@media all and (max-width: 600px){
+    #CountUp {
+    font-size: 30px;
+}
+#Plus {
+    font-size: 22px;
+}
+#Expri {
+    font-size: 17px;
+}
+}
+@media all and (max-width: 320px){
+    #CountUp {
+        font-size: 20px;
+    }
+    #Expri {
+        font-size: 14px;
+    }
+    #Plus {
+        font-size: 20px;
+    }
+}

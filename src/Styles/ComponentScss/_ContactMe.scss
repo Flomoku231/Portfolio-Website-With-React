@@ -4,6 +4,7 @@
 .ContactMe__Page{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
     justify-content: center;
     align-items: center;
 }
@@ -80,4 +81,206 @@ textarea{
 }
 .Request>#button:hover{
     background-color: $orange-clr;
+}
+.SuccessModal__container{
+    width: 100%;
+    height: 100%;
+    background-color: $lightblue-clr;
+    justify-content: center !important;
+    animation: SuccessModalAnimation 1s forwards ;
+    text-align: center;
+    align-items: center !important;
+}
+@keyframes SuccessModalAnimation {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity:1;
+    }
+    
+}
+.Modal__popup {
+    height: 180px;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    padding-top: 40px;
+    box-shadow: 0px 0px 18px rgb(0 0 0 / 9%);
+
+    #Modal_Head{
+        font-family: $primary-font;
+        font-size: 25px;
+        text-align: center;
+        
+    }
+    .Popup-button>#button{
+        background-color: $primary-clr;
+        border: 1px solid $orange-clr;
+        cursor: pointer;
+        width: 100px;
+        height: 40px;
+        font-family: $primary-font;
+        color: $secondary-clr;
+        border-radius: $primary-radius;
+        margin-top: 8px;
+        font-size: 18px;
+    }
+}
+@media all and (max-width: 800px){
+    .Modal__popup .Popup-button > #button {
+        width: 115px;
+        height: 41px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .Modal__popup {
+        height: 180px;
+        width: 65%;
+    }
+}
+@media all and (max-width: 600px){
+    .Modal__popup #Modal_Head {
+        font-size: 22px;
+    }
+    .Modal__popup .Popup-button > #button {
+        width: 95px;
+        font-size: 18px;
+    }
+    .Modal__popup {
+        height: 185px;
+        width: 80%;
+    }
+}
+@media all and (max-width: 500px){
+    .ContactMe__Form {
+        height: 600px;
+        width: 390px;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        display: flex;
+        padding: 15px;
+        border: 1px solid #F47A36;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px rgb(0 0 0 / 9%);
+        animation: ContactFormAnimation 2s forwards;
+    }
+}
+@media all and (max-width: 450px){
+    .ContactMe__Form {
+        height:515px;
+        width: 340px;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        display: flex;
+        padding: 15px;
+        border: 1px solid #F47A36;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px rgb(0 0 0 / 9%);
+        animation: ContactFormAnimation 2s forwards;
+    }
+    label {
+        font-size: 14px;
+        font-family: "Inter", sans-serif;
+    }
+    input {
+        width: 100%;
+        height: 36px;
+        padding: 0px 10px 0px 10px;
+        font-size: 16px;
+        font-family: "Calibri";
+        outline: 0px;
+    }
+    .ContactMe__Form .Form__Content {
+        width: 88%;
+        height: 68%;
+        display: flex;
+        margin: auto;
+        margin-top: 15px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Request > #button {
+        width: 100%;
+        height: 39px;
+        background-color: #161616;
+        border: 1px solid #F47A36;
+        outline: 0px;
+        border-radius: 8px;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+}
+@media all and (max-width: 400px){
+    .ContactMe__Form {
+        height: 515px;
+        width: 305px;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        display: flex;
+        padding: 15px;
+        border: 1px solid #F47A36;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px rgb(0 0 0 / 9%);
+        animation: ContactFormAnimation 2s forwards;
+    }
+    .ContactMe__Form .Form__Content {
+        width: 97%;
+        height: 68%;
+        display: flex;
+        margin: auto;
+        margin-top: 2px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Request > #button {
+        width: 100%;
+        height: 39px;
+        margin-top: 7px;
+    }
+    #email-error, #name-error,#request-error {
+        color: red;
+        position: absolute;
+        font-size: 13px;
+    }
+    .Modal__popup #Modal_Head {
+        font-size: 17px;
+    }
+    .Modal__popup .Popup-button > #button {
+        width: 115px;
+        height: 35px;
+    }
+}
+@media all and (max-width: 320px){
+    .ContactMe__Form {
+        height: 515px;
+        width: 270px;
+        box-shadow: 0px 0px 18px rgb(0 0 0 / 9%);
+        animation: ContactFormAnimation 2s forwards;
+    }
+    .ContactMe__Form .Form__Content {
+        width: 92%;
+        height: 66%;
+        display: flex;
+    }
 }

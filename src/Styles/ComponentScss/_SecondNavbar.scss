@@ -1,0 +1,115 @@
+@import './_Variables.scss';
+
+
+.Second__navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding :39px 39px 10px 100px;
+
+    .Second__navbar-logo>#Logo{
+        font-family:$primary-font;
+        text-decoration: none;
+        color:$orange-clr;
+        font-style:normal;
+        cursor: pointer;
+        font-size:18px;
+     }
+    .Second__navbar-Class{
+        width:370px;
+        height:45px;
+        justify-content: space-between;
+        background-color: $gray-color;
+        box-shadow:$navbar-shadow;
+        border-radius: $primary-radius;
+
+       .Secondnavbar__list{
+            display:flex;
+            flex-direction:row;
+            list-style-type:none;
+            width: 100%;
+            justify-content: space-between;
+            height:100%;
+            align-items:center;
+            text-align:center; 
+       }
+       .Secondnavbar__list>li{
+        font-size: 18px;
+        font-family: $primary-font;
+        color: $secondary-clr;
+        box-shadow: $navbar-shadow;
+        padding-top: 10px;
+        height: 100%;
+        width: 20%;
+        cursor: pointer;
+        border-radius: $primary-radius;
+    }
+  
+    
+    .Secondnavbar__list>li:hover{
+        background-color: $orange-clr;
+    }
+    }
+
+}
+.Second__Menu-button{
+    width: 40px;
+    height: 40px;
+    background-color: $orange-clr;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+
+    #Second__menu-image{
+        cursor: pointer;
+    }
+}
+#Portfolio_button, #Home_button, #ContactMe_button,#Services__link, #Testimonial__link{
+    text-decoration: none;
+    font-size:18px;
+    font-family: $primary-font;
+    color: $secondary-clr;
+    box-shadow: $navbar-shadow;
+    padding-top: 10px;
+    height: 100%;
+    width: 33%;
+    cursor: pointer;
+    border-radius: $primary-radius;
+
+}
+#Portfolio_button:hover, #Home_button:hover,#Services__link:hover, #ContactMe_button:hover, #Testimonial__link:hover{
+    background-color: $orange-clr;
+}
+
+@media all and (max-width: 690px){
+    .Second__Menu-button{
+        width: 40px;
+        height: 40px;
+        background-color: $secondary-clr;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        display: block;
+    
+        #Second__menu-image{
+            cursor: pointer;
+        }
+    }
+    .Second__navbar-Class{
+        width:370px;
+        display: none;
+        height:45px;
+        justify-content: space-between;
+        background-color: $gray-color;
+        box-shadow:$navbar-shadow;
+        border-radius: $primary-radius;
+    }
+    .Second__navbar{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        padding :39px 30px 10px 30px;
+    }
+    
+}

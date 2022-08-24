@@ -8,6 +8,32 @@
     height: 400px;
     margin-top:30px;
 }
+.PortfolioDetails{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    #Details_image{
+        border-radius: $primary-radius;
+        width:80%;
+        height: 60%;
+    }
+    .portfolioDetails__Card-content{
+        width: 80%;
+        text-align: left;
+        font-family: $paragraph-font;
+        font-size: 19px;
+    }
+}
+.Page__Card-row2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 .HomePage__Portfolio-cart1,.HomePage__Portfolio-cart2
 {
     display: flex;
@@ -69,11 +95,12 @@
     text-align: center;
     align-items: center;
 }
-.Portfolio__Page>h2{
+#Page-Head{
     font-family: $primary-font;
-    font-size: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
     margin-top: 50px;
-    color: $orange-clr;
+    color: $primary-clr;
 }
 .Portfolio__Page-Card{
     width: 100%;
@@ -85,12 +112,6 @@
     align-items: center;
     margin: 30px 0px 40px 0px;
 
-    .Page__Card-row1, .Page__Card-row2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 20px;
-    }
 }
 /*Making this page Responsive*/
 @media all and (max-width: 1100px){
@@ -191,5 +212,202 @@
     .Portfolio__Card {
         font-size: 11px;
         font-family: "Inter", sans-serif;
+    }
+}
+@media all and (max-width: 600px){
+    .HomePage__Portfolio-cart1, .HomePage__Portfolio-cart2 {
+        display: flex;
+        /* width: 50%; */
+        align-items: center;
+        gap: 20px;
+        flex-direction: row;
+        /* justify-content: space-between; */
+    }
+}
+@media all and (max-width: 550px){
+    .Portfolio__Card {
+        width: 201px;
+        cursor: pointer;
+        overflow: hidden;
+        height: 245px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px rgb(0 0 0 / 18%);
+        justify-content: center !important;
+        text-align: center;
+        align-items: center !important;
+        font-size: 13px;
+        font-family: "Inter", sans-serif;
+    }
+}
+@media all and (max-width: 500px){
+    .Portfolio__Card {
+    width: 201px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 245px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 18px rgb(0 0 0 / 18%);
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    font-size: 11px;
+    font-family: "Inter", sans-serif;
+}
+#Page-Head {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: #161616;
+}
+#Details__Head {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#Details__Paragraph {
+    font-size: 16px;
+}
+}
+@media all and (max-width: 450px){
+    .HomePage__Portfolio-text > h1 {
+    font-size: 22px;
+    color: #F47A36;
+    margin-bottom: 15px;
+    font-family: "Inter", sans-serif;
+}
+.Portfolio__Card {
+    width: 180px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 240px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 18px rgb(0 0 0 / 18%);
+    justify-content: center !important;
+    text-align: center;
+    align-items: center !important;
+    font-size: 11px;
+    font-family: "Inter", sans-serif;
+}
+.HomePage__Portfolio-cart1, .HomePage__Portfolio-cart2 {
+    display: flex;
+    /* width: 50%; */
+    align-items: center;
+    gap: 8px;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+#View__text {
+    font-size: 16px;
+    transform: translateY(55%);
+}
+}
+@media all and (max-width: 400px){
+    .Portfolio__Card {
+        width: 155px;
+        cursor: pointer;
+        overflow: hidden;
+        height: 220px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px rgb(0 0 0 / 18%);
+        justify-content: center !important;
+        text-align: center;
+        align-items: center !important;
+        font-size: 11px;
+        font-family: "Inter", sans-serif;
+    }
+    #Page-Head {
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        color: #161616;
+    }
+    #Details__Head {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #Details__Paragraph {
+        font-size: 15px;
+    }
+    .PortfolioDetails .portfolioDetails__Card-content {
+        width: 85%;
+        text-align: left;
+        font-family: "Calibri";
+        font-size: 19px;
+    }
+    .HomePage__Portfolio {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 550px;
+        margin-top: 30px;
+    }
+}
+@media all and (max-width: 350px){
+    .Portfolio__Card {
+        width: 145px;
+        cursor: pointer;
+        overflow: hidden;
+        height: 210px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px rgb(0 0 0 / 18%);
+        justify-content: center !important;
+        text-align: center;
+        align-items: center !important;
+        font-size: 11px;
+        font-family: "Inter", sans-serif;
+    }
+}
+@media all and (max-width: 320px){
+    .Portfolio__Card {
+        width: 130px;
+        cursor: pointer;
+        overflow: hidden;
+        height: 205px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px rgb(0 0 0 / 18%);
+        justify-content: center !important;
+        text-align: center;
+        align-items: center !important;
+        font-size: 10px;
+        font-family: "Inter", sans-serif;
+    }
+    .HomePage__Portfolio {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 500px;
+        margin-top: 30px;
+    }
+    #Details__Head {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .PortfolioDetails .portfolioDetails__Card-content {
+        width: 86%;
+        text-align: left;
+        font-family: "Calibri";
+        font-size: 19px;
+    }
+    #Page-Head {
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        color: #161616;
+    }
+    .Second__navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 39px 22px 10px 26px;
     }
 }
