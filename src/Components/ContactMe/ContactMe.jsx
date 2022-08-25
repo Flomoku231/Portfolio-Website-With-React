@@ -1,10 +1,10 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import Footer from "../HomePage/Footer/Footer";
 import Validation from "./FormValidation.js";
 import { useNavigate } from "react-router-dom";
 import Button from "../HomePage/Intro/Button";
 import SecondNavbar from "../HomePage/Intro/SecondNavbar";
-
 
 const ContactMe = () => {
   const navigate = useNavigate();
@@ -26,21 +26,31 @@ const ContactMe = () => {
     };
     const handleSubmit = (e) => {
       e.preventDefault();
+
+      emailjs
+        .sendForm(
+          "service_kxb6tfb",
+          "template_i734y8b",
+          e.target,
+          "Txy2hMdLyoMN-iiWW"
+        )
+        .then((res) => {});
+
       setErrors(Validation(values));
 
       const SubmitErrors = Validation(values);
       if (Object.keys(SubmitErrors).length > 0) {
         return setErrors(SubmitErrors);
       }
-      return navigate('/SuccessModal', { replace: true });
+      return navigate("/SuccessModal", { replace: true });
     };
     return { handleSubmit, handleChange, values, errors };
   };
   const { handleSubmit, errors, handleChange, values } = UseForm(Validation);
   return (
-  <>
+    <>
       <div className="ContactMe__Page">
-        <SecondNavbar/>
+        <SecondNavbar />
         <div className="ContactMe__Form">
           <form action="" className="Form__Content" onSubmit={handleSubmit}>
             <div className="NameInput">
@@ -86,9 +96,9 @@ const ContactMe = () => {
             <Button name="Send Message" className="Request" />
           </form>
         </div>
-         <Footer />
+        <Footer />
       </div>
-   </>
+    </>
   );
 };
 

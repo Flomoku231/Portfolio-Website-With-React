@@ -7,9 +7,67 @@
     background-color: $primary-clr;
     display:flex;
     flex-direction:row;
+    z-index: -1;
     justify-content:space-between;
     align-items:center;
     padding:0px 100px 0px 100px;
+}
+.PopupMenu{
+    position: absolute;
+    width: 100%;
+    height: 76%;
+    visibility: hidden;
+    background-color:$lightblue-clr;
+    z-index: 100;
+
+    .PopupMenu__list, #CancelButton{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        font-family: $primary-font;
+        font-size: 20px;
+        flex-direction: column;
+        list-style-type: none;
+        text-decoration: none;
+
+        #PopupPortfolio,#PopupServices,#PopupTestimonial,#PopupContact,#CancelButton{
+            text-decoration: none;
+            width: 100%;
+            font-weight: bold;
+            height: 40px;
+            padding-top: 7px;
+            color: $primary-clr;
+        }
+        #PopupPortfolio:hover,#PopupServices:hover,
+        #PopupTestimonial:hover,#PopupContact:hover,#CancelButton:hover{
+            background-color: $orange-clr;
+        }
+        #CancelButton{
+            outline: none;
+            border: none;
+            background-color: $lightblue-clr;
+        }
+        
+    }
+}
+@keyframes HomePopupAnimation{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+.isVisible{
+    position: absolute;
+    animation: HomePopupAnimation 1s forwards;
+    width: 100%;
+    height: 100%;
+    background-color:$lightblue-clr;
+    z-index: 100;
+    visibility: visible;
 }
 .HomePage{
     max-width:100%;
@@ -145,6 +203,7 @@
     display: flex;
     flex-direction: row;
     gap:20px;
+    z-index: -1;
 
     .Container__button>button{
         width:145px;
@@ -177,6 +236,7 @@
 }
 #FocusImage{
     transform: translateY(8%);
+    z-index: -1;
 }
 
 /*Making Pages Responsive*/
@@ -332,6 +392,10 @@
     }
 }
 @media all and (max-width: 690px){
+    .isVisible {
+        width: 100%;
+        height: 100%;
+    }
     .Intro__Container {
         width: 100%;
         background-size: cover;
