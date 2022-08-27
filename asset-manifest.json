@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/css/main.2d7d2997.css",
-    "main.js": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/js/main.749d04d6.js",
-    "static/media/ConsultancyProject.jpg": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/media/ConsultancyProject.3b07654c3ecf22fc47d8.jpg",
-    "static/media/Picture1.png": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/media/Picture1.bfb49759c8b8e459544a.png",
-    "static/media/AccountingAssistanceImage.jpg": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/media/AccountingAssistanceImage.bb2717c32202a8dee49f.jpg",
-    "static/media/BudgetImage.jpg": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/media/BudgetImage.a4f23045a458aa949b75.jpg",
-    "static/media/Picture2.jpeg": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/media/Picture2.a30e0a1c127af85081a0.jpeg",
-    "static/media/BusinessConsultantImage.jpg": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/media/BusinessConsultantImage.6878277de6d4f4fee149.jpg",
-    "static/media/FinancialAssessmentImage.jpg": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/media/FinancialAssessmentImage.d4aa2a7e862280290d92.jpg",
-    "static/media/Instagram.svg": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/media/Instagram.acf3c73fa434cc13a24fb7e805d2383c.svg",
-    "index.html": "/https//Flomoku231.github.io/Portfolio-Website-With-React/index.html",
-    "static/media/Menubar.svg": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/media/Menubar.ed21d3313d974a6843a0e211e57bf288.svg",
-    "static/media/Facebook.svg": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/media/Facebook.3751fe77f15ae3e5ed68d14c775d626b.svg",
-    "main.2d7d2997.css.map": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/css/main.2d7d2997.css.map",
-    "main.749d04d6.js.map": "/https//Flomoku231.github.io/Portfolio-Website-With-React/static/js/main.749d04d6.js.map"
+    "main.css": "/Portfolio-Website-With-React/static/css/main.2d7d2997.css",
+    "main.js": "/Portfolio-Website-With-React/static/js/main.d3576d5f.js",
+    "static/media/ConsultancyProject.jpg": "/Portfolio-Website-With-React/static/media/ConsultancyProject.3b07654c3ecf22fc47d8.jpg",
+    "static/media/Picture1.png": "/Portfolio-Website-With-React/static/media/Picture1.bfb49759c8b8e459544a.png",
+    "static/media/AccountingAssistanceImage.jpg": "/Portfolio-Website-With-React/static/media/AccountingAssistanceImage.bb2717c32202a8dee49f.jpg",
+    "static/media/BudgetImage.jpg": "/Portfolio-Website-With-React/static/media/BudgetImage.a4f23045a458aa949b75.jpg",
+    "static/media/Picture2.jpeg": "/Portfolio-Website-With-React/static/media/Picture2.a30e0a1c127af85081a0.jpeg",
+    "static/media/BusinessConsultantImage.jpg": "/Portfolio-Website-With-React/static/media/BusinessConsultantImage.6878277de6d4f4fee149.jpg",
+    "static/media/FinancialAssessmentImage.jpg": "/Portfolio-Website-With-React/static/media/FinancialAssessmentImage.d4aa2a7e862280290d92.jpg",
+    "static/media/Instagram.svg": "/Portfolio-Website-With-React/static/media/Instagram.acf3c73fa434cc13a24fb7e805d2383c.svg",
+    "index.html": "/Portfolio-Website-With-React/index.html",
+    "static/media/Menubar.svg": "/Portfolio-Website-With-React/static/media/Menubar.ed21d3313d974a6843a0e211e57bf288.svg",
+    "static/media/Facebook.svg": "/Portfolio-Website-With-React/static/media/Facebook.3751fe77f15ae3e5ed68d14c775d626b.svg",
+    "main.2d7d2997.css.map": "/Portfolio-Website-With-React/static/css/main.2d7d2997.css.map",
+    "main.d3576d5f.js.map": "/Portfolio-Website-With-React/static/js/main.d3576d5f.js.map"
   },
   "entrypoints": [
     "static/css/main.2d7d2997.css",
-    "static/js/main.749d04d6.js"
+    "static/js/main.d3576d5f.js"
   ]
 }
