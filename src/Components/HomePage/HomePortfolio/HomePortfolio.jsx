@@ -15,7 +15,7 @@ const HomePortfolio = () => {
         <div className="HomePage__Portfolio-text">
           <h1>Check My Portfolio</h1>
         </div>
-        <div className="HomePage__Portfolio-Card" data-aos="fade-right">
+        <div className="HomePage__Portfolio-Card" data-aos="zoom-in">
         <div className="HomePage__Portfolio-cart1">
           <PortfolioCard />
           <PortfolioCard />

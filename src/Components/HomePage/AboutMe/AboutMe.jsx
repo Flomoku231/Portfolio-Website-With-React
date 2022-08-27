@@ -9,7 +9,7 @@ const AboutMe = () => {
 
         <div className="Home__AboutPage-content">
             <div className="About__Content-title">
-                <h2>I am a Serious Accountant based in Liberiahh</h2>
+                <h2>I am a Serious Accountant based in Liberiah</h2>
             </div>
             <div className="right__paragraphy">
                 <p id='right__paragraph-p'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et perferendis quidem molestias vero quo earum ratione rerum, voluptatum vitae, voluptatibus facilis

@@ -52,10 +52,83 @@
     }
 
 }
+/*SecondNavbar Popup */
+.SecondPopupMenu{
+    position: absolute;
+    width: 100%;
+    height: 76%;
+    visibility: hidden;
+    background-color:$lightblue-clr;
+    z-index: 100;
+
+
+        #SecondPopupPortfolio,#SecondPopupServices,#SecondPopupTestimonial,
+        #SecondPopupContact,#SecondPopupHome{
+            text-decoration: none;
+            width: 100%;
+            font-weight: bold;
+            height: 40px;
+            padding-top: 7px;
+            color: $primary-clr;
+        }
+        #SecondPopupPortfolio:hover,#SecondPopupServices:hover,
+        #SecondPopupTestimonial:hover,#SecondPopupContact:hover,#SecondPopupHome:hover{
+            background-color: $orange-clr;
+        }
+        #SecondCancelButton{
+            outline: none;
+            border: none;
+            background-color: $lightblue-clr;
+        }
+        
+
+}
+.SecondPopupMenu__list{
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-family: $primary-font;
+    font-size: 20px;
+    background-color: $lightblue-clr;
+    flex-direction: column;
+    box-shadow: $navbar-shadow;
+    list-style-type: none;
+    text-decoration: none;
+}
+#SecondCancelMe{
+    font-size: 40px;
+    float: right;
+    color: $secondary-clr;
+    margin-right: 30px;
+    font-family: $paragraph-font;
+    cursor: pointer;
+}
+@keyframes SecondPopupAnimation{
+    from{
+        transform: translateY(-150%);
+    }
+    to{
+        transform: translateY(-40%);
+    }
+}
+.Visible{
+    position: absolute;
+    animation: SecondPopupAnimation 1s forwards;
+     width: 100%;
+    padding: 10px 0px 0px 0px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.914);
+    z-index: 100;
+    visibility: visible;
+    transform: translateY(-91px);
+}
+/*SecondNavbar Popup */
 .Second__Menu-button{
     width: 40px;
     height: 40px;
-    background-color: $orange-clr;
+    background-color: $secondary-clr;
     border: none;
     outline: none;
     cursor: pointer;
@@ -83,6 +156,10 @@
 }
 
 @media all and (max-width: 690px){
+    .isVisible {
+        width: 100%;
+        height: 265px;
+    }
     .Second__Menu-button{
         width: 40px;
         height: 40px;
